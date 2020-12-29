@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script type="text/javascript" src="click_event_callback.js"></script>   -->
+    <!-- <script src="click_event_callback.js"></script>  -->
+    <title>Click Event Callback</title>
+</head>
+<body>
+    <button id="btn">click me</button>
+<script>
+console.log("Start");
+document.getElementById("btn").addEventListener("click",
+function cb(){
+    console.log("Callback");
+});
+
+console.log("End");
+</script>
+</body>
+</html>
